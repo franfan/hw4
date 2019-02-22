@@ -8,7 +8,7 @@ function draw() {
   noStroke();
 
   // Draws five circles on the screen, spaced 100 pixels apart
-  for (var i = 100; i < 600; i += 200) {
-    ellipse(i, 100, 50);
+  for (var i = 100; i < 600; i += 100) {
+    ellipse(i, 100, 80);
   }
 }
