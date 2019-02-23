@@ -7,6 +7,7 @@ function draw() {
 
   for (var x = 10; x < width-10; x = x + 10) {
     line(x, height/2, mouseX, mouseY);
-    colorMode(HSB,100);
+    stroke(x, 100, 75);
+
   }
 }
