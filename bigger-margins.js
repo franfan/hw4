@@ -5,7 +5,7 @@ function setup() {
 function draw() {
   background(255);
 
-  for (var x = 10; x < width-10; x = x + 10) {
-    line(x+90, height/2, mouseX, mouseY);
+  for (var x = 40; x < width+40; x = x + 10) {
+    line(x, height/2, mouseX, mouseY);
   }
 }
